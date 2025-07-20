@@ -1,31 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RevGen Marketing - Home</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevGen Marketing | Meta Ads & AI Bookings</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="blog/index.html">Blog</a></li>
-      </ul>
-    </nav>
+<body class="bg-white text-gray-900">
+  <!-- Navbar -->
+  <header class="bg-gray-900 text-white">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-xl font-bold">RevGen</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="services.html" class="hover:text-blue-400">Services</a>
+        <a href="pricing.html" class="hover:text-blue-400">Pricing</a>
+        <a href="about.html" class="hover:text-blue-400">About</a>
+        <a href="contact.html" class="hover:text-blue-400">Contact</a>
+        <a href="blog/index.html" class="hover:text-blue-400">Blog</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <h1>Welcome to RevGen Marketing</h1>
-    <p>Performance-driven ads and 24/7 AI receptionist for local businesses.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 RevGen Marketing</p>
+
+  <!-- Hero -->
+  <section class="bg-blue-50 text-center py-16 px-4">
+    <h2 class="text-4xl font-bold mb-4">Meta Ads + 24/7 AI Receptionist</h2>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">Helping service businesses and eCommerce stores in Salisbury & Wiltshire generate more revenue through intelligent ads and automation.</p>
+    <a href="contact.html" class="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700">Get Started</a>
+  </section>
+
+  <!-- Services Overview -->
+  <section class="container mx-auto py-16 px-6">
+    <h3 class="text-2xl font-semibold text-center mb-10">Our Services</h3>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="border p-6 rounded shadow">
+        <h4 class="text-xl font-bold mb-2">Meta Ads</h4>
+        <p>Generate high ROI using well-tested Meta advertising strategies for local and online stores. Fully managed, no guesswork.</p>
+      </div>
+      <div class="border p-6 rounded shadow">
+        <h4 class="text-xl font-bold mb-2">AI Booking Assistant</h4>
+        <p>Never miss another call again. Our AI handles bookings 24/7 and integrates with your systems to convert leads while you sleep.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="bg-gray-100 py-16 px-6">
+    <div class="container mx-auto text-center max-w-3xl">
+      <h3 class="text-xl font-bold mb-4">Testimonial</h3>
+      <blockquote class="italic text-lg">
+        "After using RevGen for our Meta Ads, we saw a 300% ROI in just two weeks for Time Festival. Highly recommend!"
+        <footer class="mt-4 font-semibold">- Chris Penwarden</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 px-6">
+    <div class="container mx-auto text-center">
+      <p class="mb-2">Call/Text: <a href="tel:+447455152009" class="text-blue-300 hover:underline">07455 152009</a></p>
+      <p class="text-sm">&copy; 2025 RevGen Marketing • SEO Optimised • Serving Salisbury & Surrounding</p>
+    </div>
   </footer>
 </body>
 </html>
